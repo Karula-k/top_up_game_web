@@ -1,0 +1,43 @@
+body{
+  max-width: 80%;
+  margin: auto;
+}
+.head_box{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header_right{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.sub_menu{
+  margin: 10px;
+  padding: auto;
+}
+.Main_place{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.box_left{
+  width: 50%;
+  height: 100%;
+  margin: auto;
+}
+.box_right{
+  text-indent: 40px;
+  width: 50%;
+  height: 100%;
+  margin: auto;
+}
+footer{
+    position: fixed;
+    background-color: gray;
+    margin: auto;
+    bottom: 0;
+    padding: 50px;
+    width: 80%;
+  }

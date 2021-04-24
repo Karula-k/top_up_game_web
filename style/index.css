@@ -1,0 +1,38 @@
+body{
+  max-width: 80%;
+  margin: auto;
+}
+.head_box{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header_right{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.sub_menu{
+  margin: 10px;
+  padding: auto;
+}
+.box_content{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.box{
+  margin: 40px;
+  width: 100px;
+  height: 100px;
+  background-color: gray;
+}
+footer{
+  position: fixed;
+  background-color: gray;
+  margin: auto;
+  bottom: 0;
+  padding: 50px;
+  width: 80%;
+}
