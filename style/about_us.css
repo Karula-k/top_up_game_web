@@ -6,12 +6,20 @@ body{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background: #9EFAEF;
 }
 
 .header_right{
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
+.banner{
+  height:381px;
+  background-image: url("../image/banner.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin: 20px;
 }
 .sub_menu{
   margin: 10px;
@@ -21,23 +29,51 @@ body{
   display: flex;
   justify-content: space-around;
   align-items: center;
+  padding: 50px;
 }
 .box_left{
   width: 50%;
   height: 100%;
   margin: auto;
 }
+.holder{
+  padding-left: 20px;
+  width: 362px;
+  height: 417px;
+}
 .box_right{
-  text-indent: 40px;
   width: 50%;
   height: 100%;
   margin: auto;
 }
 footer{
-    position: fixed;
-    background-color: gray;
-    margin: auto;
-    bottom: 0;
-    padding: 50px;
-    width: 80%;
-  }
+  position:relative;
+  margin: auto;
+  bottom: 0;
+  background-color: #9EFAEF;
+}
+.base{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+.sos_med{
+  padding: 3px;
+  height: 2em;
+  width: 2em;
+  border-radius: 50%;
+  object-fit: contain;
+  background-color: white;
+}
+.flag{
+  width: 12em;
+  height: 8em;
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/1280px-Flag_of_Brazil.svg.png');
+  background-size: cover;
+}
+.ver{
+  border-left: 6px solid white;
+  height: 10em;
+  left: 50%;
+}

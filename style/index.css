@@ -19,6 +19,7 @@ body{
   background-image: url("../image/banner.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
+  margin: 20px;
 }
 .sub_menu{
   margin: 10px;
@@ -71,6 +72,7 @@ body{
   background-color: #D0FFFC;
   height: 500px;
   justify-content: center;
+  margin: 25px;
 }
 .tips{
   display: flex;
@@ -94,15 +96,15 @@ body{
 }
 footer{
   position:relative;
-  background-color: #9EFAEF;
   margin: auto;
   bottom: 0;
-  padding: 50px;
+  background-color: #9EFAEF;
 }
 .base{
   display: flex;
   justify-content: space-around;
   align-items: center;
+
 }
 .sos_med{
   padding: 3px;
@@ -117,4 +119,9 @@ footer{
   height: 8em;
   background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/1280px-Flag_of_Brazil.svg.png');
   background-size: cover;
+}
+.ver{
+  border-left: 6px solid white;
+  height: 10em;
+  left: 50%;
 }
