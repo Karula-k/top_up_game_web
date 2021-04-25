@@ -6,12 +6,19 @@ body{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background: #9EFAEF;
 }
 
 .header_right{
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
+.banner{
+  height:381px;
+  background-image: url("../image/banner.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 .sub_menu{
   margin: 10px;
@@ -28,11 +35,86 @@ body{
   height: 100px;
   background-color: gray;
 }
+.v1{
+  background-image: url("https://img.utdstc.com/icon/9a6/3d0/9a63d0817ee337a44e148854654a88fa144cfc6f2c31bc85f860f4a42c92019f:200");
+  background-size: cover;
+}
+.v2{
+  background-image: url("https://pht.qoo-static.com/wHrGkRBiLxqTCUGbl6Y9qgS_OvVjY9vYb4VU1FjKWVuqood__K1m4IH_GpmrwneCrVY=w512");
+  background-size: cover;
+}
+.v3{
+  background-image: url("https://pht.qoo-static.com/fQwPf_6EO7zWpemZGEBnn_PlHPH1mbzV9IPVXYQ6B_5fCOcSq2eTBv4vY_xx17fzTw=w300");
+  background-size: cover;
+}
+.v4{
+  background-image: url("https://styles.redditmedia.com/t5_fu2hm/styles/communityIcon_ic8jx19sgm561.png?width=256&s=407a8f39429ed261d8dbc4195987c618c40a8fe1");
+  background-size: cover;
+}
+.v5{
+  background-image: url("https://www.apkmirror.com/wp-content/uploads/2019/07/5d3b5abc95126.png");
+  background-size: cover;
+}
+.v6{
+  background-image: url("https://pht.qoo-static.com/2SNMw8k_vnJFrV7vhfUC7pfF11KouB7ZJxBD8c0L4JdyxvM1RcJEG6rZkDo-HTwG_Mo=w512");
+  background-size: cover;
+}
+.v7{
+  background-image: url("https://live.staticflickr.com/1739/27525455217_56ebe6e422_c.jpg");
+  background-size: cover;
+}
+.v8{
+  background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/a1a835da-1286-4380-9039-981c58360597/d8mab0u-f0e85461-9456-4f33-97a6-bb49cef6c994.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvYTFhODM1ZGEtMTI4Ni00MzgwLTkwMzktOTgxYzU4MzYwNTk3XC9kOG1hYjB1LWYwZTg1NDYxLTk0NTYtNGYzMy05N2E2LWJiNDljZWY2Yzk5NC5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.HeK1hm1aFjOqbuHNB0UFZZdy1CPfNlvN-m7m7tD6h5s");
+  background-size: cover;
+}
+.guidance_cont{
+  background-color: #D0FFFC;
+  height: 500px;
+  justify-content: center;
+}
+.tips{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.text_tips,.img_guda{
+  margin: auto;
+}
+.caution{
+  height: 100px;
+  width: 80%;
+  margin: auto;
+  box-shadow: 0px 6px 5px #888, 0px -6px 5px #888;
+
+}
+.caution p{
+  padding-top: 20px;
+  margin: auto;
+  text-align: center;
+}
 footer{
-  position: fixed;
-  background-color: gray;
+  position:relative;
+  background-color: #9EFAEF;
   margin: auto;
   bottom: 0;
   padding: 50px;
-  width: 80%;
+}
+.base{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.sos_med{
+  padding: 3px;
+  height: 2em;
+  width: 2em;
+  border-radius: 50%;
+  object-fit: contain;
+  background-color: white;
+}
+.flag{
+  width: 12em;
+  height: 8em;
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/1280px-Flag_of_Brazil.svg.png');
+  background-size: cover;
 }
